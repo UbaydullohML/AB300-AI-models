@@ -41,6 +41,8 @@ Task:
       echo $PATH
       echo $ADSP_LIBRARY_PATH
       echo $XDG_RUNTIME_DIR
+  
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/0fd59a55-5e75-4a6e-8f63-5d82b4f67f63)
 
 
 ## Example
