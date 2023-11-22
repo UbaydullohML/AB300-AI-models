@@ -1,10 +1,10 @@
 ## Table
 
 * [Set Env](#set_env)
-* [...](#...)
+* [example](#example)
 
 
-## Set Env
+## Set_Env
 
 Task:
 - creating the setupai.sh file
@@ -43,4 +43,4 @@ Task:
       echo $XDG_RUNTIME_DIR
 
 
-## .. 
+## Example
