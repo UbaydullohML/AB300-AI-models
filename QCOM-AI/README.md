@@ -45,4 +45,22 @@ Task:
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/0fd59a55-5e75-4a6e-8f63-5d82b4f67f63)
 
 
+- in order to set firefox and chrome, below link will be helpful:
+https://developer.qualcomm.com/forum/qdn-forums/hardware/qualcomm-robotics-rb5-development-kit/68570
+
+      firefox
+
+and chrome
+
+      chromium-browser --no-sandbox
+      DISPLAY=:0 chromium-browser --no-sandbox
+
+
 ## Example
+
+
+
+
+
+
+
