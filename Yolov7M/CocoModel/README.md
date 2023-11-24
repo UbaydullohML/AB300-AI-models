@@ -2,7 +2,7 @@
 * [Before Start](#before_start)
 * [Install YOLOv7](#install_yolo7)
 * [Install requirements](#install_requirements)
-* [Pre-trained Coco Model](#pretrained_cocoModel)
+* [Pre-trained Coco Model](#pre-trained_cocoModel)
 
 ## Before_Start
 - Let's make sure that we have access to GPU. We can use `nvidia-smi` command to do that. In case of any problems navigate to `Edit` -> `Notebook settings` -> `Hardware accelerator` and set it to `GPU`.
@@ -16,7 +16,7 @@ https://github.com/UbaydullohML/windows1/blob/main/env_create.md
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/ddff19f5-f6ab-4812-ae6a-0af53a83f0d3)
 
-## Install_YOLOv7
+## Install_YOLO7
 
       git clone https://github.com/WongKinYiu/yolov7
       // navigate to yolov7 directory and checkout u7 branch of YOLOv7 - this is hash of lates commit from u7 branch as of 12/21/2022
@@ -29,7 +29,7 @@ https://github.com/UbaydullohML/windows1/blob/main/env_create.md
       pip install --upgrade pip
       pip install -r requirements.txt
 
-## Pretrained_CocoModels
+## Pre-trained_CocoModel
 
 - download COCO starting checkpoint to yolov7/seg directory
 
