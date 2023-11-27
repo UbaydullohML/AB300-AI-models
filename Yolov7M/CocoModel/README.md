@@ -73,6 +73,11 @@ Task:
 
 - now i have changed the code like below, to stream it on the new window
 
+
+      python segment/stream.py --source data/cars2.mp4 --weights yolov7-seg.pt --view-img
+      python segment/stream.py --source data/s5s.mp4 --weights yolov7-seg.pt
+      
+
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/22319dda-a576-4bbc-8f2a-b052061369ba)
 
 
