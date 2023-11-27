@@ -3,6 +3,7 @@
 * [Install YOLOv7](#install_yolo7)
 * [Install requirements](#install_requirements)
 * [Pre-trained Coco Model](#pre-trained_cocoModel)
+* [Stream 24](#stream_pc)
 
 ## Before_Start
 - Let's make sure that we have access to GPU. We can use `nvidia-smi` command to do that. In case of any problems navigate to `Edit` -> `Notebook settings` -> `Hardware accelerator` and set it to `GPU`.
@@ -62,6 +63,26 @@ https://github.com/UbaydullohML/windows1/blob/main/env_create.md
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/1c4614f4-2fd9-49d6-b339-385166af8aec)
 
 
+## Stream_pc
 
-      
-      
+Task:
+- as Yolo mainly saves the input video in its folder
+- which i have written stream.py file based on Yolov7 predict.py in order to stream input file
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/99f9f121-50a4-47c1-b9f1-6fe523b7e49b)
+
+- now i have changed the code like below, to stream it on the new window
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/22319dda-a576-4bbc-8f2a-b052061369ba)
+
+
+- streaming output on pc window:
+- which i have written stream.py file based on Yolov7 predict.py in order to stream input file
+
+stream.py
+
+- output streaming results:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/48b03313-1629-40eb-8914-1b15297342fa)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/0f867f74-20ea-4d8a-811c-afa25a91097b)
+
