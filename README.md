@@ -10,16 +10,17 @@ Task:
 
 to take a stream of the camera we need to create a file that includes the below code file will be provided.
 
-    vi postrouting.sh # input the codes like below image
+    vi postrouting.sh # input the code file 
     # :wq
 
-we need to install iptables to use the code below:
+we need to install iptables to use the code
 
     sudo apt-get install iptables
 
 
 After running the code we let the rtsp TCP and udp address send and allow to 554 port on other device that we intend to use.
 
+Camera rtsp data
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/6b22c8c9-c70d-452e-b097-da8dbb3ef5d9)
 
