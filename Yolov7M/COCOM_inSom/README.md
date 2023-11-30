@@ -93,6 +93,14 @@ image outputs
 
 video outputs:
 
+code
+
+    python segment/stream.py --source data/cars.mp4 --weights yolov7-seg.pt
+    python segment/stream.py --source data/cars60f.mp4 --weights yolov7-seg.pt
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/bc8b9125-2307-415e-b4eb-f4a0fec99f28)
+
+
 stream outputs:
 
 code 
