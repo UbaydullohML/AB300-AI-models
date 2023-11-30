@@ -111,4 +111,5 @@ code
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/4b63d57d-30bd-45b0-ac6e-5946b1a2d9fa)
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/3c2ed7c9-e1ad-42b8-9e42-b2acd38ce8bf)
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/e037dd4e-6a7c-4a2c-ab95-961f7fb7129a)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/418b370e-15c9-4dac-b10d-1e401ac6f781)
 
