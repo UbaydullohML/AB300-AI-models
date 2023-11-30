@@ -108,6 +108,7 @@ code
 
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/4b63d57d-30bd-45b0-ac6e-5946b1a2d9fa)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/9b11c38c-6be3-4906-b3c0-2dfa12064402)
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/3c2ed7c9-e1ad-42b8-9e42-b2acd38ce8bf)
 
 
