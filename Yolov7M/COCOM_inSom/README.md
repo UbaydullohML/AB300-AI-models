@@ -91,16 +91,16 @@ image outputs
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/773c017a-2ffa-49cc-9087-392fc87dc98c)
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/ec87b31c-e4ac-4157-a678-24bdca57cb6b)
 
-video outputs:
+- Video outputs:
 
 code
 
     python segment/stream.py --source data/cars.mp4 --weights yolov7-seg.pt
     python segment/stream.py --source data/cars60f.mp4 --weights yolov7-seg.pt
 
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/8c2c61f6-5d3f-4886-b41f-02316322638b)
 
-
-stream outputs:
+- Stream outputs:
 
 code 
 
