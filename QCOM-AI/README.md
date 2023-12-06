@@ -61,7 +61,7 @@ and chrome
 ## Snpe
 
 - SDK
-- 
+
 https://developer.qualcomm.com/software/qualcomm-ai-engine-direct-sdk?cmpid=pr-glQvK2skeT
 
 The Qualcomm® AI Engine Direct SDK provides lower-level, unified APIs for AI development.
