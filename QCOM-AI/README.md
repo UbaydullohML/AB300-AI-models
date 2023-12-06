@@ -60,7 +60,7 @@ and chrome
 
 ## Snpe
 
-- SDK
+- SDK 
 
 https://developer.qualcomm.com/software/qualcomm-ai-engine-direct-sdk?cmpid=pr-glQvK2skeT
 
