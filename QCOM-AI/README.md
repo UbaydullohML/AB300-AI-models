@@ -1,7 +1,9 @@
 ## Table
 
 * [Set Env](#set_env)
-* [example](#example)
+* [SNPE](#snpe)
+* [onnx](#onnx)
+* [DLC](#dlc)
 
 
 ## Set_Env
@@ -56,11 +58,30 @@ and chrome
       DISPLAY=:0 chromium-browser --no-sandbox
 
 
-## Example
+## Snpe
 
+- SDK
+- 
+https://developer.qualcomm.com/software/qualcomm-ai-engine-direct-sdk?cmpid=pr-glQvK2skeT
 
+The Qualcomm® AI Engine Direct SDK provides lower-level, unified APIs for AI development.
+A processor SDK, or software development kit, is a collection of tools and software that allows developers to create applications for a specific processor. 
 
+benefits:
+1. reduce development time, by providing pre built set of tools and software
+2. improve code quality,
+3. reduce risk, support and resources from processor manufacturer. 
 
+- Task:
 
+usage and role of qcom SDK for neural processing:
+as before I have used the PyTorch method to get the below weight yolov7.pt
+and was able to export to .onnx weight as well
 
+which is not directly focused on qcom engine, it was suitable more for gpu-based systems.
+thus, now we need to use qcom sdk to make it effective with qcom engine (CPU/GPU).
 
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/cbd53f7d-b327-4c42-83bd-4a10155627f2)
+
+qcom sdk-based weight is used by Qualcomm Technologies, Inc. (QTI) within the SDK
+weights which are third-party frameworks such as TensorFlow Lite and the ONNX runtime could be used as well.
