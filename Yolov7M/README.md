@@ -28,3 +28,12 @@ and use onnx and dlc together
     python detect.py --source data/s5s.mp4 --weights yolov7-tiny.pt
 
 - the installation of yolov7 det and testing are available in yolotest.ipynb fie
+
+- below is done to not save and directly stream video:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/3966c505-7e5b-4f9c-a795-258637ff398f)
+
+- and this font_size=1.0 has been added to increase the size of bounding box and class font size
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/2c9befab-a26c-4900-9af1-402b4251d4b8)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/94780c7d-d8e4-4dbe-9d4e-3eb85c74a3d4)
