@@ -136,3 +136,19 @@ thus, we do like below:
 
 
 ONNX is intermediary representation of model that let easily go from on environment to the next. 
+
+
+
+
+## DLC 
+- Concept of DLC (Deep Learning Container) format Snapdragon Neural Network Engine
+
+the below is the QCS610 similar Processor to RB5 processor arch example about DLC usage:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/86232d1f-b8f7-442c-a940-35a0111873a8)
+
+- The conversion output also consists of information about supported and unsupported layers of the network.
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/e3bcd305-b60f-474a-b25a-2d44306b40c4)
+
+ONNX or TensorFlow models are used on Snapdragon platforms by converting the trained models into DLC-formatted files for inference.
