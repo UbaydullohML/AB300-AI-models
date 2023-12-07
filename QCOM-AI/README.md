@@ -156,8 +156,18 @@ ONNX or TensorFlow models are used on Snapdragon platforms by converting the tra
 
 
 ## Links
-- installing the qtimlesnpe = Qualcomm Robotics RB5 - Install qtimlesnpe (ridgerun.com)
+- installing the qtimlesnpe = Qualcomm Robotics RB5  = https://developer.ridgerun.com/wiki/index.php/Qualcomm_Robotics_RB5/AI_hardware_acceleration/Neural_Processing_SDK/Install_qtimlesnpe
 
-- git helps for seting up qtimlenspe and general rb5 = quic/sample-apps-for-robotics-platforms (github.com)
+- git helps for seting up qtimlenspe and general rb5 = https://github.com/quic/sample-apps-for-robotics-platforms
 
-- ai with gstreamer rb5, onnx, tflit conversion,   = globaledgesoft/AI-With-GStreamer-On-RB5: Qualcomm provides its own version of GStreamer which allows you to load and execute AI models (github.com)
+- ai with gstreamer rb5, onnx, tflit conversion,   = https://github.com/globaledgesoft/AI-With-GStreamer-On-RB5
+
+
+
+- qcom flight hardware detailshttps://developer.qualcomm.com/hardware/qualcomm-flight-rb5
+
+- qcom rb5 development kit = https://www.qualcomm.com/developer/robotics-rb5-development-kit#overview
+
+- setting snpe SDK setup = https://developer.qualcomm.com/sites/default/files/docs/snpe/index.html
+
+- setting snpe SDK on windows = https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk/windows-on-snapdragon
