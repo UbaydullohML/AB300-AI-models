@@ -85,3 +85,23 @@ thus, now we need to use qcom sdk to make it effective with qcom engine (CPU/GPU
 
 qcom sdk-based weight is used by Qualcomm Technologies, Inc. (QTI) within the SDK
 weights which are third-party frameworks such as TensorFlow Lite and the ONNX runtime could be used as well.
+
+
+- SDKs:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/1d10de03-5044-42e4-8e5c-88c41e75fc79)
+https://www.qualcomm.com/developer/artificial-intelligence#overview
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/072d823e-db5a-4768-82bc-36de9dbc94e3)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/838097f1-9f2e-4c15-bee1-f9ca3f5b9fd1)
+
+
+SDK usage in snpe of SOM
+Network is designed and trained using familiar frameworks: TensorFlow, PyTorch, Keras and ONNX
+and changed to dlc format
+
+Development Forkflow:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/5fe16e5b-bf1e-4c73-9962-c69b03a6e1f3)
+
+model file is converted into .dlc (Deep Learning Container) file to be used by Snapdragon Neural Processing Engine (NPE) runtime.
