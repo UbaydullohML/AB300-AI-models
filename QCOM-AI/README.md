@@ -171,3 +171,8 @@ ONNX or TensorFlow models are used on Snapdragon platforms by converting the tra
 - setting snpe SDK setup = https://developer.qualcomm.com/sites/default/files/docs/snpe/index.html
 
 - setting snpe SDK on windows = https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk/windows-on-snapdragon
+
+- ai vision rb5 solutions = https://github.com/quic/sample-apps-for-robotics-platforms/tree/master/RB5/linux_kernel_5_x/AI-ML-apps/AI_Vision_Solutions
+
+- rb5 snpe detection = https://github.com/quic/sample-apps-for-robotics-platforms/tree/master/RB5/linux_kernel_5_x/AI-ML-apps/snpe_detection
+  
