@@ -2,7 +2,7 @@
 
 * [Set Env](#set_env)
 * [SNPE](#snpe)
-* [onnx](#onnx)
+* [Onnx](#onnx)
 * [DLC](#dlc)
 
 
@@ -109,6 +109,7 @@ model file is converted into .dlc (Deep Learning Container) file to be used by S
 
 ## ONNX
 - concept of ONNX (Open Neural Network Exchange), ai ecosystem,
+  
 ONNX is designed to allow framework interoperability
 There are many excellent machine learning libraries, such as PyTorch TensorFlow, MXNet, Caffe, etc.
 the idea is to use a model with one tool stack and deploy it using another for inference and prediction.
