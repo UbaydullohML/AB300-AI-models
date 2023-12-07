@@ -4,6 +4,7 @@
 * [SNPE](#snpe)
 * [Onnx](#onnx)
 * [DLC](#dlc)
+* [Links](#links)
 
 
 ## Set_Env
@@ -152,3 +153,11 @@ the below is the QCS610 similar Processor to RB5 processor arch example about DL
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/e3bcd305-b60f-474a-b25a-2d44306b40c4)
 
 ONNX or TensorFlow models are used on Snapdragon platforms by converting the trained models into DLC-formatted files for inference.
+
+
+## Links
+- installing the qtimlesnpe = Qualcomm Robotics RB5 - Install qtimlesnpe (ridgerun.com)
+
+- git helps for seting up qtimlenspe and general rb5 = quic/sample-apps-for-robotics-platforms (github.com)
+
+- ai with gstreamer rb5, onnx, tflit conversion,   = globaledgesoft/AI-With-GStreamer-On-RB5: Qualcomm provides its own version of GStreamer which allows you to load and execute AI models (github.com)
