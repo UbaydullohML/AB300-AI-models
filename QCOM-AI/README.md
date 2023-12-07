@@ -116,13 +116,22 @@ to ensure this interoperability, we must export the model into the model.onnx
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/cfdb084e-f66d-4662-8e82-6784e57f037d)
 
-- model.onnx format is serialized representation of model in protobuf file. 
+- model.onnx format is serialized representation of model in protobuf file.
+  
 and there is an native support in onnx for pytorch, cntk, mxnet and caffe2. 
 but there are also converters for Tensorflow and CoreML
 
 
 - Example ONNX usage case:
+
 first there is an trained model
 second we want to deploy it to new IOS app, 
 we trained the model with CNN in PyTorch but IOS expect to use CoreML to be used in the app. 
+thus, we do like below:
+
+1. Convert PyTorch model to ONNX
+
+2. Convert ONNX model to CoreML
+
+
 ONNX is intermediary representation of model that let easily go from on environment to the next. 
