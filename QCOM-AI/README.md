@@ -105,3 +105,24 @@ Development Forkflow:
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/5fe16e5b-bf1e-4c73-9962-c69b03a6e1f3)
 
 model file is converted into .dlc (Deep Learning Container) file to be used by Snapdragon Neural Processing Engine (NPE) runtime.
+
+
+## ONNX
+- concept of ONNX (Open Neural Network Exchange), ai ecosystem,
+ONNX is designed to allow framework interoperability
+There are many excellent machine learning libraries, such as PyTorch TensorFlow, MXNet, Caffe, etc.
+the idea is to use a model with one tool stack and deploy it using another for inference and prediction.
+to ensure this interoperability, we must export the model into the model.onnx
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/cfdb084e-f66d-4662-8e82-6784e57f037d)
+
+- model.onnx format is serialized representation of model in protobuf file. 
+and there is an native support in onnx for pytorch, cntk, mxnet and caffe2. 
+but there are also converters for Tensorflow and CoreML
+
+
+- Example ONNX usage case:
+first there is an trained model
+second we want to deploy it to new IOS app, 
+we trained the model with CNN in PyTorch but IOS expect to use CoreML to be used in the app. 
+ONNX is intermediary representation of model that let easily go from on environment to the next. 
