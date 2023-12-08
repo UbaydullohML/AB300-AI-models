@@ -4,6 +4,7 @@
 * [SNPE](#snpe)
 * [Onnx](#onnx)
 * [DLC](#dlc)
+* [algorithm](#algorithm)
 * [Links](#links)
 
 
@@ -153,6 +154,14 @@ the below is the QCS610 similar Processor to RB5 processor arch example about DL
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/e3bcd305-b60f-474a-b25a-2d44306b40c4)
 
 ONNX or TensorFlow models are used on Snapdragon platforms by converting the trained models into DLC-formatted files for inference.
+
+
+## algorithm  - K-means clustering
+- Clustering is a type of unsupervised learning where the refernce need to be drawn from unlabelled datasets. it is used to catch meaningful structure 
+
+
+
+ 
 
 
 ## Links
