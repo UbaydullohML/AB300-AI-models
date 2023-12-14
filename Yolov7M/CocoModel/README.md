@@ -116,10 +116,13 @@ Task:
 
 ## Yolo_Det
 
-- installed python venv 3.8
+installed python venv 3.8
 
-      python detect.py --source data/dog.jpeg --weights yolov7.pt
+    python detect.py --source data/dog.jpeg --weights yolov7.pt
+    python detect.py --weights ./yolov7-tiny.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
 
 installing the onnx grapsurgeon
 
-      python3 -m pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+    python3 -m pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+
+      
