@@ -7,6 +7,7 @@
 * [Stream_28](#stream28_pc)
 * [rtsp Output PC](#rtsp_output_pc)
 * [rtsp_output SOM](#rtsp_output_som)
+* [Yolo_det](#yolo_det)
 
 ## Before_Start
 - Let's make sure that we have access to GPU. We can use `nvidia-smi` command to do that. In case of any problems navigate to `Edit` -> `Notebook settings` -> `Hardware accelerator` and set it to `GPU`.
