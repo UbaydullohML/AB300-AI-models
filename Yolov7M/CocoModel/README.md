@@ -137,8 +137,16 @@ changing pt to onnx
 
 - export outputs
 
-![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/78eaf0f1-79d6-4722-9a7c-083327b93176)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/59f1af78-164e-451d-9d80-f52a1c754d6f)
 
-![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/249f7c10-93af-4d5c-98e1-bde5e0ec6b9b)
+and 
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/697b8cb4-a260-45ab-92af-1a7ea55d19dc)
+
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/52b74665-3dac-48a3-8be1-5ec5d40e2170)
+
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/1779af71-1624-4b0e-b67c-51935f93e151)
 
 
