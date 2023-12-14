@@ -105,6 +105,10 @@ Task:
 - and in order to use the code in terminal we run below codes and rtsp is also working like below in PC:
 
       python segment/stream.py --source rtsp://192.168.0.38:554/main.264 --weights yolov7-seg.pt
+      
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/f2cf16b0-027c-4071-8986-7a0a82b1a155)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/e9d8c249-7d29-41ff-ab78-b0422e241fc9)
+
 
 
 
@@ -115,8 +119,6 @@ Task:
 
       python detect.py --source data/dog.jpeg --weights yolov7.pt
 
-      
-![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/f2cf16b0-027c-4071-8986-7a0a82b1a155)
-![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/e9d8c249-7d29-41ff-ab78-b0422e241fc9)
+installing the onnx grapsurgeon
 
-
+      python3 -m pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
