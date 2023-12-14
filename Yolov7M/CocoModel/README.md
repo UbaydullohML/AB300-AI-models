@@ -125,7 +125,18 @@ installing the onnx grapsurgeon
 
     python3 -m pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 
+req libraries:
+
+
+
 changing pt to onnx
 
     python export.py --weights yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
+
+
+- export outputs
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/78eaf0f1-79d6-4722-9a7c-083327b93176)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/249f7c10-93af-4d5c-98e1-bde5e0ec6b9b)
+
 
