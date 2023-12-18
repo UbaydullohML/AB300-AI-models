@@ -236,6 +236,11 @@ the output of onnx file application:
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/c3599efa-7071-46b4-a590-71ab41b20bba)
 
 
+- setting up the snpe sdk of linux on pc host machine
+
+https://developer.ridgerun.com/wiki/index.php/Qualcomm_Robotics_RB5/AI_hardware_acceleration/Neural_Processing_SDK/Getting_started#Get_the_Neural_Processing_SDK
+
+
 
 ## Change_to_dlc
 change the conversion of yolo .onnx to qcom.DLC
