@@ -241,6 +241,7 @@ the output of onnx file application:
 https://developer.ridgerun.com/wiki/index.php/Qualcomm_Robotics_RB5/AI_hardware_acceleration/Neural_Processing_SDK/Getting_started#Get_the_Neural_Processing_SDK
 
 - setting up env second part
+
 related to setting up ml frameworks in snpe SDK
 
 https://developer.ridgerun.com/wiki/index.php/Qualcomm_Robotics_RB5/AI_hardware_acceleration/Neural_Processing_SDK/Setup_environment
