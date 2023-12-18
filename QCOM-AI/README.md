@@ -7,6 +7,7 @@
 * [algorithm](#algorithm)
 * [Links](#links)
 * [Setup Snpe Sdk](#setup_snpe)
+* [Change onnx to dlc](##change_to_dlc)
 
 
 ## Set_Env
@@ -195,11 +196,11 @@ ONNX or TensorFlow models are used on Snapdragon platforms by converting the tra
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/b1489dd3-cbba-4745-aa89-2129d063060a)
 
 - run env qcom
-snped sdk libraries for converting to qcom weight
+snpe SDK libraries for converting to qcom weight
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/4eb38aa0-9df5-412d-bd06-86888d2bf770)
 
-- setu env of conversion from pt to onnx format file:
+- setup env of conversion from pt to onnx format file:
 using yolo PyTorch runtime support to change to onnx file:
 
 fixed all the errors:
@@ -210,13 +211,13 @@ which missing the onnx_graphsurgeon
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/40aeb837-4dec-45be-8127-23440361a27b)
 
-above error has been fixed tto install the onnx_graphsurgeon
+The above error has been fixed to install the onnx_graphsurgeon
 
       python -m pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/16fe1119-1eb5-4688-a55e-32dd00d09e89)
 
-after installing above library will change to onnx format file
+after installing the above library will change to onnx format file
 
 and use that onnx format to change to DLC
 
@@ -227,4 +228,24 @@ conversion of pt to onnx
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/01c97727-35cf-4e6c-849c-a9f5018e14f0)
 
+the working onnx file:
 
+the output of onnx file application:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/f0a6bc00-d4c4-4796-b471-73a1c472bc90)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/c3599efa-7071-46b4-a590-71ab41b20bba)
+
+
+
+## Change_to_dlc
+change the conversion of yolo .onnx to qcom.DLC
+
+    ./snpe-onnx-to-dlc -i yolov7-tinyy.onnx -o yolov7-tinyy.dlc
+
+output
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/1debdf77-a0ad-4a1b-8cf3-e4e670962730)
+
+conversion state
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/fed491f8-7515-4454-b4fb-f89b1e0a053d)
