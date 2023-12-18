@@ -7,7 +7,7 @@
 * [algorithm](#algorithm)
 * [Links](#links)
 * [Setup Snpe Sdk](#setup_snpe)
-* [Change to dlc](##change_to_dlc)
+* [Change onnx to dlc](#change_to_dlc)
 
 
 ## Set_Env
