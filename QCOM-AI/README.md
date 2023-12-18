@@ -6,6 +6,7 @@
 * [DLC](#dlc)
 * [algorithm](#algorithm)
 * [Links](#links)
+* [Setup Snpe Sdk](#setup_snpe)
 
 
 ## Set_Env
@@ -185,3 +186,45 @@ ONNX or TensorFlow models are used on Snapdragon platforms by converting the tra
 
 - rb5 snpe detection = https://github.com/quic/sample-apps-for-robotics-platforms/tree/master/RB5/linux_kernel_5_x/AI-ML-apps/snpe_detection
   
+
+
+## Setup_snpe
+- prepared WSL Ubuntu 20.04 on windows 11 for the development
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/fa38c9f5-ba57-40a8-ac21-eb6d6d0d6e19)
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/b1489dd3-cbba-4745-aa89-2129d063060a)
+
+- run env qcom
+snped sdk libraries for converting to qcom weight
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/4eb38aa0-9df5-412d-bd06-86888d2bf770)
+
+- setu env of conversion from pt to onnx format file:
+using yolo PyTorch runtime support to change to onnx file:
+
+fixed all the errors:
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/b1bfc881-3cec-41a6-adfd-4a4e623e9119)
+
+which missing the onnx_graphsurgeon
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/40aeb837-4dec-45be-8127-23440361a27b)
+
+above error has been fixed tto install the onnx_graphsurgeon
+
+      python -m pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/16fe1119-1eb5-4688-a55e-32dd00d09e89)
+
+after installing above library will change to onnx format file
+
+and use that onnx format to change to DLC
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/09478af8-dce6-408c-b48a-d5c3191c944b)
+
+
+conversion of pt to onnx
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/01c97727-35cf-4e6c-849c-a9f5018e14f0)
+
+
