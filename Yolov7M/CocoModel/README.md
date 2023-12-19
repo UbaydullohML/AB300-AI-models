@@ -8,6 +8,7 @@
 * [rtsp Output PC](#rtsp_output_pc)
 * [rtsp_output SOM](#rtsp_output_som)
 * [Yolo_det](#yolo_det)
+* [Convert to onnx](#convert_to_onnx)
 
 ## Before_Start
 - Let's make sure that we have access to GPU. We can use `nvidia-smi` command to do that. In case of any problems navigate to `Edit` -> `Notebook settings` -> `Hardware accelerator` and set it to `GPU`.
@@ -131,7 +132,7 @@ req libraries:
 one thing:
 protobuf 3.20.3 is required 
 
-changing pt to onnx
+## Convert_on_onnx
 
     python export.py --weights yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
 
