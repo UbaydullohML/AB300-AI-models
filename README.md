@@ -1,6 +1,6 @@
 ## AB300-AI-models
 * [Prepare AB300](#ab300_setup)
-* [t](#t)
+* [reference](#reference)
 
 ## AB300_setup
 Task:
@@ -59,4 +59,12 @@ to open the stream on our vlc, we use the eth1 which is the static ip address of
 rtsp://192.168.0.38:554/main.264, the ip address is of ab300 board
 
 
-## t
+## Reference
+necessary libraries of android for qcom snpe:
+
+https://android.googlesource.com/platform/frameworks/native/+/android-4.2.2_r1/include/utils/
+https://android.googlesource.com/platform/system/core/+/refs/heads/main/libcutils/include/cutils/log.h
+https://android.googlesource.com/platform/system/core/+/master/libcutils/include/cutils/properties.h
+
+https://developer.qualcomm.com/forum/qdevnet-forums/computer-vision-fastcv/7556  - qcom build issues
+https://colab.research.google.com/drive/1Y7hjXPiTgkO7tsgG2xGbWVlMTNmUTh6A#scrollTo=ArMQB8cbHf_Q&uniqifier=1   = onnx usage on colab
