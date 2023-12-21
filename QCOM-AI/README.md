@@ -7,6 +7,7 @@
 * [algorithm](#algorithm)
 * [Links](#links)
 * [Setup Snpe Sdk](#setup_snpe)
+* [Convert pt to onnx](#convert_pt_to_onnx)
 * [Change onnx to dlc](#change_to_dlc)
 
 
@@ -224,7 +225,15 @@ and use that onnx format to change to DLC
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/09478af8-dce6-408c-b48a-d5c3191c944b)
 
 
-conversion of pt to onnx
+## Convert_pt_to_onnx
+it is done inside powershell not linux or wsl
+
+for activating the python 3.8 for windows powershell:
+
+      .\yolo78e\Scripts\activate
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/046c464a-31e4-42a2-9299-180fb0fcf2b1)
+
 
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/01c97727-35cf-4e6c-849c-a9f5018e14f0)
 
