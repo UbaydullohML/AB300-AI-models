@@ -70,4 +70,4 @@ https://github.com/jungin500/snpe-docker    - snpe docker
 https://developer.qualcomm.com/forum/qdevnet-forums/computer-vision-fastcv/7556  - qcom build issues
 https://colab.research.google.com/drive/1Y7hjXPiTgkO7tsgG2xGbWVlMTNmUTh6A#scrollTo=ArMQB8cbHf_Q&uniqifier=1   = onnx usage on colab
 https://mpolinowski.github.io/docs/IoT-and-Machine-Learning/ML/2023-01-14-yolov7_to_tensorflow/2023-01-14/  - onnx to tflite
-
+https://igor.technology/export-yolo-v7-to-tensorflow-lite/     = onnx-to-tflite
