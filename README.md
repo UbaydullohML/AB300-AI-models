@@ -79,6 +79,9 @@ https://mpolinowski.github.io/docs/IoT-and-Machine-Learning/ML/2023-01-14-yolov7
 
 https://igor.technology/export-yolo-v7-to-tensorflow-lite/     = onnx-to-tflite
 
+https://github.com/VikasOjha666/yolov7_to_tflite/blob/main/yoloV7_to_TFlite%20.ipynb   = onnx-tflite
+
+https://github.com/sithu31296/PyTorch-ONNX-TFLite    = pt - onnx - tflite
 
 ## Qtimletflite
 
