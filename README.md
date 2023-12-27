@@ -64,13 +64,19 @@ rtsp://192.168.0.38:554/main.264, the ip address is of ab300 board
 necessary libraries of android for qcom snpe:
 
 https://android.googlesource.com/platform/frameworks/native/+/android-4.2.2_r1/include/utils/
+
 https://android.googlesource.com/platform/system/core/+/refs/heads/main/libcutils/include/cutils/log.h
+
 https://android.googlesource.com/platform/system/core/+/master/libcutils/include/cutils/properties.h
+
 https://github.com/jungin500/snpe-docker    - snpe docker
 
 https://developer.qualcomm.com/forum/qdevnet-forums/computer-vision-fastcv/7556  - qcom build issues
+
 https://colab.research.google.com/drive/1Y7hjXPiTgkO7tsgG2xGbWVlMTNmUTh6A#scrollTo=ArMQB8cbHf_Q&uniqifier=1   = onnx usage on colab
+
 https://mpolinowski.github.io/docs/IoT-and-Machine-Learning/ML/2023-01-14-yolov7_to_tensorflow/2023-01-14/  - onnx to tflite
+
 https://igor.technology/export-yolo-v7-to-tensorflow-lite/     = onnx-to-tflite
 
 
