@@ -89,5 +89,9 @@ using tflite_predctions.py file
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/a009a93a-b7b2-463c-9e55-b31c20699f73)
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/78a04cdb-e8e3-49c7-ac8e-81f5796f0adb)
 
+- robust yolov7 onnx-tflite conversion
+
+https://www.kaggle.com/code/ubaydulloasatullaev/yolo7-onnx-tflite
+
 
 
