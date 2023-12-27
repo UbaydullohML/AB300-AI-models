@@ -1,6 +1,7 @@
 ## AB300-AI-models
 * [Prepare AB300](#ab300_setup)
 * [reference](#reference)
+* [qtimletflite](#qtimletflite)
 
 ## AB300_setup
 Task:
@@ -71,3 +72,38 @@ https://developer.qualcomm.com/forum/qdevnet-forums/computer-vision-fastcv/7556 
 https://colab.research.google.com/drive/1Y7hjXPiTgkO7tsgG2xGbWVlMTNmUTh6A#scrollTo=ArMQB8cbHf_Q&uniqifier=1   = onnx usage on colab
 https://mpolinowski.github.io/docs/IoT-and-Machine-Learning/ML/2023-01-14-yolov7_to_tensorflow/2023-01-14/  - onnx to tflite
 https://igor.technology/export-yolo-v7-to-tensorflow-lite/     = onnx-to-tflite
+
+
+## Qtimletflite
+
+- the default detect.tflite is working and files are being organized in like below yolo folder
+
+all the below ouptuts are default object detection results in qcom real time streaming
+
+and it has reached 30 + frame per second
+
+in below yolo folder there is and .tflite weight, label file and .config file to be used in code
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/5e3f8a27-c19e-4304-ab6b-6bebd2b7ebe0)
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/998246ab-4127-4150-9dc1-2cf05b232578)
+
+    gst-launch-1.0 qtiqmmfsrc ! video/x-raw\(memory:GBM\), format=NV12, width=1280, height=720, framerate=30/1 ! queue ! qtimletflite config=/data/misc/camera/yolo/mle_tflite.config 
+    postprocessing=detection ! queue ! qtioverlay ! waylandsink  width=1920 height=1080 async=true sync=false enable-last-sample=false
+
+- qtimletflite is working as above code
+
+this one is the qcom rb5 camera input
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/4eee223a-5d61-4ddf-b000-9cb748b5ccd6)
+
+and output
+
+    gst-launch-1.0 rtspsrc location=rtsp://192.168.0.38:554/live ! decodebin ! videoconvert ! qtimletflite config=/data/misc/camera/yolo/mle_tflite.config
+    postprocessing=detection ! queue ! qtioverlay ! waylandsink width=1920 height=1080 sync=true enable-last-sample=false
+
+and this one is ab300 camera rtsp://192.168.0.38 stream input
+
+![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/339b8f7e-80e7-4271-832f-af1ddd19f2ac)
+
+and output
