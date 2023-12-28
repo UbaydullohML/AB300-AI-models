@@ -19,3 +19,4 @@ Rename the copied folder name to snpe: You’re renaming the copied folder to �
 Rebuild the image and flash the image to the device: Finally, you’re rebuilding the Linux image with the new SDK feature enabled, and then flashing this new image onto your device1.
 
 Please note that these instructions assume you have a working knowledge of the Yocto Project and Linux development. If you’re new to these topics, you might find it helpful to review some tutorials or documentation on the Yocto Project and Qualcomm Neural Processing SDK234.
+
