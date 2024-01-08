@@ -113,8 +113,18 @@ and output
 
 and this one is ab300 camera rtsp://192.168.0.38 stream input
 
-
-
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/339b8f7e-80e7-4271-832f-af1ddd19f2ac)
 
 and output
+
+
+- bugs related links (onnx-tensorflow, )
+  
+https://github.com/onnx/onnx-tensorflow
+https://github.com/onnx/onnx-tensorflow/issues?q=is%3Aissue+is%3Aopen+Transpose
+https://github.com/onnx/onnx-tensorflow/issues/310     (NCHW" but tensorflow data type is "NHWC")
+https://github.com/onnx/onnx-tensorflow/issues/912      onnx（nchw）>> tf.pb(nchw)
+https://github.com/PINTO0309/PINTO_model_zoo/issues/15    Is there an easy way to convert ONNX or PB from (NCHW) to (NHWC)?
+https://console.paperspace.com/github/gradient-ai/yolov5/blob/master/tutorial-paperspace.ipynb?machine=Free-GPU&file=%2F.pre-commit-config.yaml
+https://stackoverflow.com/questions/63880242/trying-to-convert-onnx-model-to-pb-model-using-onnx-tf-library
+
