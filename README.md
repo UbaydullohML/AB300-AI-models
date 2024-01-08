@@ -113,6 +113,8 @@ and output
 
 and this one is ab300 camera rtsp://192.168.0.38 stream input
 
+
+
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/339b8f7e-80e7-4271-832f-af1ddd19f2ac)
 
 and output
