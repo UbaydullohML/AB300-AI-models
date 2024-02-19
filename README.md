@@ -4,7 +4,7 @@
 * [qtimletflite](#qtimletflite)
 
 ## AB300_setup    
-Task: 
+Task:  
 - Setup board
   
 ![image](https://github.com/UbaydullohML/AB300-AI-models/assets/75980506/d2106ab6-ae2f-4d8a-92bd-f267509e077c)
