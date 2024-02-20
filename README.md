@@ -3,7 +3,7 @@
 * [reference](#reference)
 * [qtimletflite](#qtimletflite)
 
-## AB300_setup    
+## AB300_setup     
 Task:  
 - Setup board
   
